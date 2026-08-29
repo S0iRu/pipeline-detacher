@@ -1,0 +1,17 @@
+{
+  "name": "com.s0iru.pipeline-detacher",
+  "version": "1.0.0",
+  "displayName": "Pipeline Detacher",
+  "description": "Detaches the Blueprint ID from PipelineManager components on selected GameObjects (children excluded), same as pressing the Detach button in the inspector.",
+  "unity": "2022.3",
+  "author": {
+    "name": "S0iRu",
+    "url": "https://github.com/S0iRu"
+  },
+  "vpmDependencies": {
+    "com.vrchat.base": ">=3.0.0"
+  },
+  "legacyFolders": {},
+  "legacyFiles": {},
+  "url": "https://github.com/S0iRu/pipeline-detacher"
+}
