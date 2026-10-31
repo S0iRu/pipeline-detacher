@@ -2,7 +2,7 @@
   "name": "com.s0iru.pipeline-detacher",
   "version": "1.0.0",
   "displayName": "Pipeline Detacher",
-  "description": "Detaches the Blueprint ID from PipelineManager components on selected GameObjects (children excluded), same as pressing the Detach button in the inspector.",
+  "description": "選択したオブジェクトの PipelineManager から Blueprint ID を外します。子は対象にせず、Inspector の Detach と同じ動作です。",
   "unity": "2022.3",
   "author": {
     "name": "S0iRu",
