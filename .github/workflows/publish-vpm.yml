@@ -1,0 +1,16 @@
+name: Publish VPM
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - package.json
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    uses: S0iRu/vpm-repos/.github/workflows/publish-package.yml@main
+    secrets:
+      LISTING_DISPATCH_TOKEN: ${{ secrets.LISTING_DISPATCH_TOKEN }}
